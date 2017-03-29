@@ -21,7 +21,7 @@ scotchApp.config(function($routeProvider) {
         })
 
         // route for the contact page
-        .when('/contact/:user', {
+        .when('/contact', {
             templateUrl : 'pages/contact.html',
             controller  : 'contactController'
         });
